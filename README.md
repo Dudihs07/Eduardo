@@ -1,2 +1,0 @@
-# Eduardo
-Pasta 2
