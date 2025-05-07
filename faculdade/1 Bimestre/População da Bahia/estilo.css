@@ -1,0 +1,43 @@
+.titulo{
+    text-align: center;
+    background-color: #0d5188;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+table{
+    width:600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 600px;
+}
+.sub{
+    background-color: #66c5e3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.cinza{
+    background-color: silver;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.cidade{
+    background-color: #c7e7f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.numero{
+    background-color: #c7e7f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.pos{
+    width: 60px;
+}
+.pop{
+    width: 90px;
+}
