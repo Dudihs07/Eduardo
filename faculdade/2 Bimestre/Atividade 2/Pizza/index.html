@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedido de Pizza</title>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    input, button, select {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    #resultado {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Faça seu Pedido de Pizza</h1>
+
+  <h2>Escolha os sabores de pizza</h2>
+  <label for="pizza1">Primeiro sabor:</label>
+  <select id="pizza1">
+    <option value="Queijo">Queijo</option>
+    <option value="Calabresa">Calabresa</option>
+    <option value="Frango">Frango</option>
+    <option value="Marguerita">Marguerita</option>
+    <option value="Portuguesa">Portuguesa</option>
+  </select><br><br>
+
+  <label for="pizza2">Segundo sabor:</label>
+  <select id="pizza2">
+    <option value="Queijo">Queijo</option>
+    <option value="Calabresa">Calabresa</option>
+    <option value="Frango">Frango</option>
+    <option value="Marguerita">Marguerita</option>
+    <option value="Portuguesa">Portuguesa</option>
+  </select><br><br>
+
+  <label for="pizza3">Terceiro sabor:</label>
+  <select id="pizza3">
+    <option value="Queijo">Queijo</option>
+    <option value="Calabresa">Calabresa</option>
+    <option value="Frango">Frango</option>
+    <option value="Marguerita">Marguerita</option>
+    <option value="Portuguesa">Portuguesa</option>
+  </select><br><br>
+
+  <label for="pizza4">Quarto sabor:</label>
+  <select id="pizza4">
+    <option value="Queijo">Queijo</option>
+    <option value="Calabresa">Calabresa</option>
+    <option value="Frango">Frango</option>
+    <option value="Marguerita">Marguerita</option>
+    <option value="Portuguesa">Portuguesa</option>
+  </select><br><br>
+
+  <h2>Quantos refrigerantes?</h2>
+  <input type="number" id="refrigerantes" min="0" placeholder="Ex: 2" /><br><br>
+
+  <button onclick="calcularPedido()">Calcular Pedido</button>
+
+  <div id="resultado"></div>
+</body>
+</html>
