@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Cotação do Dólar</title>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    #resultados {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simulador de Aumento do Dólar</h1>
+  <label for="cotacao">Digite a cotação atual do dólar (R$):</label><br>
+  <input type="number" id="cotacao" step="0.01" min="0" placeholder="Ex: 5.25"><br>
+  <button onclick="calcular()">Calcular</button>
+
+  <div id="resultados"></div>
+</body>
+</html>

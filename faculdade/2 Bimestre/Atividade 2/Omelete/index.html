@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Omelete</title>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    #resultado {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quantas pessoas vão comer omelete?</h1>
+  <label for="pessoas">Número de pessoas:</label><br>
+  <input type="number" id="pessoas" min="1" placeholder="Ex: 3"><br>
+  <button onclick="calcularIngredientes()">Calcular</button>
+
+  <div id="resultado"></div>
+</body>
+</html>
