@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #0D80BF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(https://sougremio.com.br/wp-content/uploads/2025/02/Sem-Titulo-1-166-1024x576.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sobre {
+    padding: 40px 20px;
+    background-color: #0D80BF(255, 16, 16);
+    text-align: center;
+}
+
+footer {
+    background-color: #0D80BF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
