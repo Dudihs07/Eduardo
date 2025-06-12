@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Vendas</title>
+  <link rel="stylesheet" href="./css/sistemasdevendas.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/sistemasdevendas.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sistema de Vendas</h1>
+
+    <label for="preco">Preço do produto (R$):</label>
+    <input type="number" id="preco" placeholder="Ex: 100" min="0" step="0.01">
+
+    <label for="condicao"> <br>Condição de pagamento:</label>
+    <select id="condicao">
+      <option value="a">a) À vista (dinheiro/cheque) - 10% desconto</option>
+      <option value="b">b) À vista (cartão crédito) - 15% desconto</option>
+      <option value="c">c) Em 2x sem juros</option>
+      <option value="d">d) Em 2x com juros de 10%</option>
+    </select>
+
+    <br><button onclick="calcularPagamento()">Calcular</button>
+
+    <p id="resultado"></p>
+  </div>
+
+  <footer>
+        <div class="footer-container">
+            <img src="./img/imgunipar.png.png" alt="Logo UNIPAR" class="logo-footer">
+            <div class="footer-text">
+                <p>Eduardo Henrique dos Santos - RA: 60008520</p>
+                <p>Marcos Vinícius Schumacher Dorta - RA: 60010138</p>
+                <p>UNIPAR - Universidade Paranaense | Toledo - PR</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
